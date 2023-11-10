@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['0', '1', '2', '3', 'heel', 'midsole', 'outersole', 'uppersole']
+
+roboflow:
+  workspace: kiet-lxibj
+  project: component-shoe-analyzer
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kiet-lxibj/component-shoe-analyzer/dataset/1
